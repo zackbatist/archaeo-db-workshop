@@ -1,8 +1,8 @@
 # archaeo-db-workshop
-
-
-
 ## Description
+Databases are crucial components of the archaeological toolbox that facilitate with the storage, organization and retrieval of information across a project. However, designing and implementing archaeological databases can be challenging due to the technical learning curve involved, the unique needs of archaeological projects, and lack of support or guidance.
+
+This two-hour workshop will focus on fundamental aspects of database design, and teach participants how to construct information systems for various purposes. This is intended to be an active and participatory session. As an introductory overview, no prior knowledge or experience is expected.
 
 ## Workshop Structure
 1. About this workshop
@@ -20,7 +20,7 @@
   - **Activity: Create indexes and relationships**
 5. Manipulating data
   - INSERT, UPDATE, SELECT, DELETE and JOIN queries
-  **Activity: Practice data manipulation**
+  - **Activity: Practice data manipulation**
 6. Front-end development
   - **Demo: FLIRT**
 7. Wrap up
@@ -50,7 +50,7 @@
   - Jargon-busting
 
 ## Workshop Materials
-Workshop materials are written as [Markdown](https://en.wikipedia.org/wiki/Markdown) files and presentation slides are created using [reveal.js](https://github.com/hakimel/reveal.js). All generated assets are hosted on [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/) and packaged as a downloadable archive.
+Workshop materials are written as [Markdown](https://en.wikipedia.org/wiki/Markdown) files and [presentation slides](https://zackbatist.github.io/archaeo-db-workshop/reveal-js/index.html) are created using [reveal.js](https://github.com/hakimel/reveal.js). All generated assets are hosted on [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/) and packaged as a downloadable archive.
 
 ## Credits
 Some aspects of this workshop, including the overall structure of this GitHub repository and some of its contents, are drawn from the material made available by [Toronto Mesh](https://github.com/tomeshnet) for their [P2P Internet Workshop](https://github.com/tomeshnet/p2p-internet-workshop). Gracious thanks to Dawn Walker [[@dcwalk](https://github.com/dcwalk)] for providing me with this, as well as other helpful resources.
