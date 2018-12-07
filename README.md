@@ -1,62 +1,56 @@
 # archaeo-db-workshop
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
 
 ## Description
 
-## Module Topics
-1. What is a database?
-2. Setting up a database
-  * Command line basics
-  * Installing MariaDB Server
-  * Creating and configuring a database
-  * Creating users and grant permissions
-3. Designing database structure
-  * Creating tables
-  * Indexes
-  * Relationships
-4. Importing existing data
-5. SELECT and JOIN queries
-6. UPDATE and INSERT queries
-7. Creating front-end interfaces
+## Workshop Structure
+1. About this workshop
+2. What is a [relational] database?
+3. Setting up a Database Management System
+  - Setting up and accessing a database server
+  - Command line basics
+  - SQL basics
+  - **Activity: Create and access your database**
+4. Structuring the database
+  - Scoping and creating tables
+  - **Activity: Scope and create tables**
+  - **Activity: Import data if you've got some**
+  - Creating indexes and relationships
+  - **Activity: Create indexes and relationships**
+5. Manipulating data
+  - INSERT, UPDATE, SELECT, DELETE and JOIN queries
+  **Activity: Practice data manipulation**
+6. Front-end development
+  - **Demo: FLIRT**
+7. Wrap up
+
 
 ## Learning Outcomes
-
-- Understanding what a database is, and how it relates to other aspects of an archaeological information infrastructure
-- Understand how to design effective and flexible database structures
-- Create a research database
-- Understand how to input, modify and look up data
-- Become a profficient user of the command line
+- Understand what a database is, and how it relates to other aspects of an archaeological information infrastructure
+- Understand how to design and maintain effective data structures
+- Understand how to input, modify and retrieve data
+- Create your own research database to suit your specific needs
+- Become a profficient user of the command line and develop practical computing skills
 
 ## Expectations
-
 - Participants will bring their own laptop
 - Participants will bring a copy of their own dataset to work with, or be able to think through the specific aspects of the data that they hope to collect in the future
-- Participants will receive primer information via a [welcome email](https://zackbatist.github.io/archaeo-db-workshop/articles/general/general-welcome-email.pdf), which includes:
-  - [laptop setup instructions](https://zackbatist.github.io/archaeo-db-workshop/articles/general/general-laptop-setup-instructions.pdf),
-  - a Linux shell primer,
-  - and a [pre-workshop survey](https://zackbatist.github.io/archaeo-db-workshop/articles/general/general-pre-workshop-survey.pdf)
-- Participants are comfortable using a computer before, with no assumptions about prior programming or networking knowledge
+- Participants are comfortable using a computer, with no assumptions about prior programming or networking knowledge
+- Participants will be asked to fill out a pre-workshop survey, and share feedback for further improvement
+- Participants will receive primers/cheatsheets via email prior to the workshop relating to:
+  - laptop setup instructions,
+  - working on the command line,
+  - SQL basics
 
 ## Facilitation Guidelines
-
-- The workshop is led by a facilitator driving the session according to the lesson plan
-- Aim to have one helper for every 6 students, responsible for:
-    - Providing assistance during hands-on sections
-    - Keeping groups on schedule for each activity
+- The workshop is led by a facilitator driving the session according to the structure presented above
 - Use a [shared notepad](https://etherpad.wikimedia.org/p/archaeo-db-workshop) for:
-    - Sharing notes and links
-    - Jargon-busting
-- Conclude with a [ticket out the door](http://www.ideasforeducators.com/idea-blog/a-twist-on-ticket-out-the-door) activity where students can optionally and anonymously leave feedback as they leave the class
+  - Sharing notes and links
+  - Jargon-busting
 
 ## Workshop Materials
-Class materials are written as [Markdown](https://en.wikipedia.org/wiki/Markdown) files and presentation slides are created as a Markdown-based [GitBook](https://www.gitbook.com). All generated assets are hosted on [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/) and packaged as a downloadable archive on [GitHub Releases](https://github.com/zackbatist/archaeo-db-workshop/releases/latest).
-
-When facilitating the workshop in an offline environment, you can run `gitbook serve` from a `presentation` directory to serve the slides on `http://localhost:4000`.
-
-If you want to generate course assets yourself, simply run `./install-dependencies.sh` and `./build.sh`. You will find the generated assets in the `output` folder. The `./package.sh` script is used to zip up the generated assets into downloadable archives and to create the course website.
-
-[Travis CI](https://travis-ci.org/) is configured to build, package, and publish a new release to GitHub Pages and Releases whenever a new tag is pushed. So all you need to create a new release is to push a new tag with `git tag <version>` and `git push --tag`.
+Workshop materials are written as [Markdown](https://en.wikipedia.org/wiki/Markdown) files and presentation slides are created using [reveal.js](https://github.com/hakimel/reveal.js). All generated assets are hosted on [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/) and packaged as a downloadable archive.
 
 ## Credits
 Some aspects of this workshop, including the overall structure of this GitHub repository and some of its contents, are drawn from the material made available by [Toronto Mesh](https://github.com/tomeshnet) for their [P2P Internet Workshop](https://github.com/tomeshnet/p2p-internet-workshop). Gracious thanks to Dawn Walker [[@dcwalk](https://github.com/dcwalk)] for providing me with this, as well as other helpful resources.
@@ -70,6 +64,7 @@ These are the sources where I got some data to play around with, which are avail
 - Figure skating scores - [https://github.com/BuzzFeedNews/figure-skating-scores](https://github.com/BuzzFeedNews/figure-skating-scores)
 - Jeopardy questions - [https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
 
-
 ## License
 All workshop materials at github.com/zackbatist/archaeo-db-workshop/ are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, the text of which is included in the repository LICENSE file.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
