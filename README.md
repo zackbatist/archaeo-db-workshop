@@ -61,5 +61,15 @@ If you want to generate course assets yourself, simply run `./install-dependenci
 ## Credits
 Some aspects of this workshop, including the overall structure of this GitHub repository and some of its contents, are drawn from the material made available by [Toronto Mesh](https://github.com/tomeshnet) for their [P2P Internet Workshop](https://github.com/tomeshnet/p2p-internet-workshop). Gracious thanks to Dawn Walker [[@dcwalk](https://github.com/dcwalk)] for providing me with this, as well as other helpful resources.
 
+### Data Sources
+These are the sources where I got some data to play around with, which are available at [https://github.com/zackbatist/archaeo-db-workshop/datasets](https://github.com/zackbatist/archaeo-db-workshop/datasets)
+- DObsiSS - [https://github.com/zackbatist/DObsiSS](https://github.com/zackbatist/DObsiSS)
+- University of Toronto - [https://github.com/cobalt-uoft/datasets](https://github.com/cobalt-uoft/datasets)
+- IMDB - [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/)
+- NYC Street Trees Census - [https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh)
+- Figure skating scores - [https://github.com/BuzzFeedNews/figure-skating-scores](https://github.com/BuzzFeedNews/figure-skating-scores)
+- Jeopardy questions - [https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
+
+
 ## License
 All workshop materials at github.com/zackbatist/archaeo-db-workshop/ are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, the text of which is included in the repository LICENSE file.
