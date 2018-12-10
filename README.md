@@ -50,7 +50,7 @@ This two-hour workshop will focus on fundamental aspects of database design, and
   - Jargon-busting
 
 ## Workshop Materials
-Workshop materials are written as [Markdown](https://en.wikipedia.org/wiki/Markdown) files and [presentation slides](https://zackbatist.github.io/archaeo-db-workshop/reveal-js/index.html) are created using [reveal.js](https://github.com/hakimel/reveal.js). All generated assets are hosted on [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/) and packaged as a downloadable archive.
+Workshop materials are written as markdown files, and [presentation slides](https://zackbatist.github.io/archaeo-db-workshop/reveal-js/index.html) are created using [reveal.js](https://github.com/hakimel/reveal.js). All generated assets are [hosted on Github](https://github.com/zackbatist/archaeo-db-workshop) and rendered nicely using [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/).
 
 ## Credits
 Some aspects of this workshop, including the overall structure of this GitHub repository and some of its contents, are drawn from the material made available by [Toronto Mesh](https://github.com/tomeshnet) for their [P2P Internet Workshop](https://github.com/tomeshnet/p2p-internet-workshop). Gracious thanks to Dawn Walker [[@dcwalk](https://github.com/dcwalk)] for providing me with this, as well as other helpful resources.
