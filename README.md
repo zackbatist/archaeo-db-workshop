@@ -67,9 +67,9 @@ These are the sources where I got some data to play around with, which are avail
 - Jeopardy questions - [https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
 
 ### Contact
-twitter: [@mtl_zack](https://twitter.com/mtl_zack/)
-github: [zackbatist](https://github.com/zackbatist/)
-homepage: [zackbatist.github.io](http://zackbatist.github.io/)
+- twitter: [@mtl_zack](https://twitter.com/mtl_zack/)
+- github: [zackbatist](https://github.com/zackbatist/)
+- homepage: [zackbatist.github.io](http://zackbatist.github.io/)
 
 ## License
 All workshop materials at github.com/zackbatist/archaeo-db-workshop/ are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, the text of which is included in the repository LICENSE file.
