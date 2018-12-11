@@ -1,4 +1,6 @@
 # archaeo-db-workshop
+[[homepage]](https://zackbatist.github.io/archaeo-db-workshop/) [[github]](https://zackbatist.github.io/archaeo-db-workshop/) [[.zip]](https://github.com/zackbatist/archaeo-db-workshop/archive/master.zip)
+
 ## Description
 Databases are crucial components of the archaeological toolbox that facilitate with the storage, organization and retrieval of information across a project. However, designing and implementing archaeological databases can be challenging due to the technical learning curve involved, the unique needs of archaeological projects, and lack of support or guidance.
 
@@ -63,6 +65,11 @@ These are the sources where I got some data to play around with, which are avail
 - NYC Street Trees Census - [https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh)
 - Figure skating scores - [https://github.com/BuzzFeedNews/figure-skating-scores](https://github.com/BuzzFeedNews/figure-skating-scores)
 - Jeopardy questions - [https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
+
+### Contact
+twitter: [@mtl_zack](https://twitter.com/mtl_zack/)
+github: [zackbatist](https://github.com/zackbatist/)
+homepage: [zackbatist.github.io](http://zackbatist.github.io/)
 
 ## License
 All workshop materials at github.com/zackbatist/archaeo-db-workshop/ are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, the text of which is included in the repository LICENSE file.
