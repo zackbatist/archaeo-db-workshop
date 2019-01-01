@@ -45,15 +45,42 @@
 </section>
 <section data-markdown>
 <textarea data-template>
+### Outcomes
+- Understand what a database is, and how it relates to archaeological workflows
+
+- Understand how to design and maintain effective data structures
+
+- Understand how to input, modify and retrieve data
+
+- Create your own research database to suit your specific needs
+
+- Become a profficient user of the command line and develop practical computing skills
+</textarea>
+</section>
+<section data-markdown>
+<textarea data-template>
+### Workshop Structure / Logistics
+---
+https://zackbatist.github.io/archaeo-db-workshop/
+
+https://github.com/zackbatist/archaeo-db-workshop/
+</textarea>
+</section>
+<section data-markdown>
+<textarea data-template>
 ### About me
 ---
-- PhD Student in the Faculty of Information
-- Interested in how [information] infrastructures shape archaeological practices and data
-- Interested in lithics
-- Database Manager at Stelida Naxos Archaeological Project since 2016
-- I like developing cool apps in R!
+- Background doing network analysis and GIS
 
-[link to FLIRT]
+- Looking at how archaeological practice is supported by and works alongside information infrastructures
+
+- I like lithics
+
+- I like R
+
+- I like using R to code cool things relating to lithics
+
+- I manage the databases at the Stelida Naxos Archaeological Project
 
 </textarea>
 </section>
@@ -83,68 +110,65 @@
 </textarea>
 </section>
 <section data-markdown>
-### More specifically...
+### Three main components:
 ---
-- The **database management system (DBMS)** is the software that interacts with end users, applications and the database itself to capture and analyze data
-
-- The sum total of the database, the DBMS and the associated applications can be referred to as a ‘database system’
-
-- Often the term ‘database’ is used to loosely refer to any of the DBMS, the database system or an application associated with the database
+1. Database Management System [DBMS]
+2. Database Schema
+3. Data
 </textarea>
 </section>
 <section data-markdown>
 <textarea data-template>
-### DBMS
+### Database Management System
+---
+Software that mediates between end users, applications and the database itself
+</textarea>
+</section>
+<section data-markdown>
+<textarea data-template>
+### Database Management System
 ---
 - **Data definition** – Creation, modification and removal of definitions that structure the data
 
 - **Update** – Insertion, modification and deletion of actual data
 
-- **Retrieval** – Providing information in a form directly usable for further processing by other applications
+- **Retrieval** – Obtaining data from the database through a system of machine-readable commands
 
-- **Administration** – Registering and monitoring users, enforcing data security, monitoring performance, maintaining data integrity
+- **Administration** – Registering and monitoring users, enforcing data security, monitoring performance, maintaining data integrity, etc
 </textarea>
 </section>
 <section data-markdown>
 <textarea data-template>
 ### Database schema
 ---
-Overall architecture or structure of the database
+- Overall architecture or structure of the database
 
----
-There are a few models to choose from...
+- The explicitly defined set of rules that structure the data and enable it to be input and retrieved in a systematic manner
 
-- **Relational** <<<<<<<<<<<<<<<<<<<<
-
-- Graph / Network
-
-- Hierarchical
-
-- and more...
+- Models include: **relational**, graph/network, hierarchical/tree, key:value pairs/JSON
 </textarea>
 </section>
 <section data-markdown>
 <textarea data-template>
 ### Relational Databases
 ---
-- Organizes data into tables of columns and rows, with a unique key identifying each row
+- Organizes data into a series of thematically-arranged tables of columns and rows
+![blank-table](assets/blank-table.png)
 
-  - Rows are also called records
-  - Columns are also called variables or attributes
 </textarea>
 </section>
 <section data-markdown>
 <textarea data-template>
-### Relational Databases
+### Relational Database Schema
 ---
-- Generally, each table represents one 'entity type'
-  - i.e. contexts, artefacts, OSL samples, etc
-
-- Rows represent instances of that type of entity
-  - i.e. context 0321, AR009876, S112
-
-- Columns represent values attributed to that instance
-  - i.e. soil texture, date closed, raw material, weathering index, etc
+![empty-schema-linked](assets/empty-schema-linked.png)
+</textarea>
+</section>
+<section data-markdown>
+<textarea data-template>
+### Relational Database Schema
+---
+![schema-graph](assets/schema-graph.png)
 </textarea>
 </section>
 <section data-markdown>
@@ -153,8 +177,20 @@ There are a few models to choose from...
 ---
 - The contents of the database
 
-- Must 'fit' the schema (overall architecture of the database)
-  - e.g. you can't have a doorframe open up onto a window frame or a brick wall, for instance; it should open up to an accessible room or to the street, but only when it’s on the ground floor in the latter case
+- Must 'fit' the schema
+</textarea>
+</section>
+<section data-markdown>
+<textarea data-template>
+### Filled Relational Database
+---
+![filled-schema-linked](assets/filled-schema-linked.png)
+</textarea>
+</section>
+<section data-markdown>
+<textarea data-template>
+### Questions?
+---
 </textarea>
 </section>
 </section>
@@ -171,7 +207,6 @@ There are a few models to choose from...
 <section data-markdown>
 <textarea data-template>
 ### Comparison of some DBMS
----
 | DBMS | Main Aspects |
 | - | - |
 | **MariaDB/MySQL** | multi-user, open source, must build your own UI |
@@ -208,13 +243,12 @@ There are a few models to choose from...
 <textarea data-template>
 ## Using the command line ~ *Don't panic!*
 
-Every action you make can be expressed as a text-based command inputted into the command line
+Every action is intentional, direct and self-contained
 
 ---------------
 _**It's like getting access to the breakfast buffet instead of ordering off the fixed menu!**_
 
 ---------------
-Every action is intentional, direct and self-contained
 
 </textarea>
 </section>
@@ -224,7 +258,9 @@ Every action is intentional, direct and self-contained
 ### Bash
 ---
 
-[example and breakdown of a bash command]
+```
+cp -R ~/files ~/files-backup
+```
 
 - Command
 - Flags

@@ -1,5 +1,5 @@
 # archaeo-db-workshop
-[[homepage]](https://zackbatist.github.io/archaeo-db-workshop/) [[github]](https://zackbatist.github.io/archaeo-db-workshop/) [[.zip]](https://github.com/zackbatist/archaeo-db-workshop/archive/master.zip)
+[[homepage]](https://zackbatist.github.io/archaeo-db-workshop/) [[github]](https://github.com/zackbatist/archaeo-db-workshop) [[.zip]](https://github.com/zackbatist/archaeo-db-workshop/archive/master.zip)
 
 ## Description
 Databases are crucial components of the archaeological toolbox that facilitate with the storage, organization and retrieval of information across a project. However, designing and implementing archaeological databases can be challenging due to the technical learning curve involved, the unique needs of archaeological projects, and lack of support or guidance.
