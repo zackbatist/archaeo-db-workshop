@@ -1,7 +1,13 @@
 # archaeo-db-workshop notes
 
 ## Section 1 - About this workshop [10 minutes]
-This two-hour workshop will focus on fundamental aspects of database design
+Like all tools wielded by archaeologists, databases tend to be implemented in an ad-hoc manner, and as circumscribed by the situation at hand.
+
+This workshop is meant to introduce some of the fundamental aspects of practical database design and implementation.
+
+It is a rather short session, but it will give you a point of reference from which you can explore on your own.
+
+If people want me to give a more detailed workshop later in the term, I will consider doing so.
 
 If all goes according to plan, you will understand:
 
@@ -48,7 +54,6 @@ So a little about me and my experiences working with databases before we begin:
 + You maintain or plan on maintaining an extensive amount of tabular data
 + You want to learn how to manage this data more effectively
 + You're keen to hone your digital skillset and/or develop more structured digital workflows
-
 
 ## Section 2 - What is a database? [10-15 minutes]
 ### What is a database?

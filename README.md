@@ -1,5 +1,5 @@
 # archaeo-db-workshop
-[[homepage]](https://zackbatist.github.io/archaeo-db-workshop/) [[github]](https://github.com/zackbatist/archaeo-db-workshop) [[.zip]](https://github.com/zackbatist/archaeo-db-workshop/archive/master.zip)
+[[homepage]](https://zackbatist.github.io/archaeo-db-workshop/) [[github]](https://github.com/zackbatist/archaeo-db-workshop) [[etherpad]](https://etherpad.wikimedia.org/p/archaeo-db-workshop) [[.zip]](https://github.com/zackbatist/archaeo-db-workshop/archive/master.zip)
 
 ## Description
 Databases are crucial components of the archaeological toolbox that facilitate with the storage, organization and retrieval of information across a project. However, designing and implementing archaeological databases can be challenging due to the technical learning curve involved, the unique needs of archaeological projects, and lack of support or guidance.
@@ -37,24 +37,20 @@ This two-hour workshop will focus on fundamental aspects of database design, and
 
 ## Expectations
 - Participants will bring their own laptop
-- Participants will bring a copy of their own dataset to work with, or be able to think through the specific aspects of the data that they hope to collect in the future
 - Participants are comfortable using a computer, with no assumptions about prior programming or networking knowledge
-- Participants will be asked to fill out a pre-workshop survey, and share feedback for further improvement
-- Participants will receive primers/cheatsheets via email prior to the workshop relating to:
-  - laptop setup instructions,
-  - working on the command line,
-  - SQL basics
+- Participants will be asked to share feedback so that further iterations may be improved
 
 ## Facilitation Guidelines
 - The workshop is led by a facilitator driving the session according to the structure presented above
 - Use a [shared notepad](https://etherpad.wikimedia.org/p/archaeo-db-workshop) for:
   - Sharing notes and links
+  - Sharing code snippets
   - Jargon-busting
 
 ## Workshop Materials
-Workshop materials are written as markdown files, and [presentation slides](https://zackbatist.github.io/archaeo-db-workshop/reveal-js/index.html) are created using [reveal.js](https://github.com/hakimel/reveal.js). All generated assets are [hosted on Github](https://github.com/zackbatist/archaeo-db-workshop) and rendered nicely using [GitHub Pages](https://zackbatist.github.io/archaeo-db-workshop/).
+Workshop materials are available in this GitHub repository, and rendered nicely at [zackbatist.github.io/archaeo-db-workshop](https://zackbatist.github.io/archaeo-db-workshop/).
 
-### Helpful Resources
+## Helpful Resources
 - [University of Toronto Coders: Introduction to Bash](https://uoftcoders.github.io/studyGroup/lessons/misc/bash-intro/lesson/)
 - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 
@@ -62,13 +58,9 @@ Workshop materials are written as markdown files, and [presentation slides](http
 Some aspects of this workshop, including the overall structure of this GitHub repository and some of its contents, are drawn from the material made available by [Toronto Mesh](https://github.com/tomeshnet) for their [P2P Internet Workshop](https://github.com/tomeshnet/p2p-internet-workshop). Gracious thanks to Dawn Walker [[@dcwalk](https://github.com/dcwalk)] for providing me with this, as well as other helpful resources.
 
 ### Data Sources
-These are the sources where I got some data to play around with, which are available at [https://github.com/zackbatist/archaeo-db-workshop/datasets](https://github.com/zackbatist/archaeo-db-workshop/datasets)
+Here are some sample datasets that may be useful for playing around with when developing test databases:
 - DObsiSS - [https://github.com/zackbatist/DObsiSS](https://github.com/zackbatist/DObsiSS)
-- University of Toronto - [https://github.com/cobalt-uoft/datasets](https://github.com/cobalt-uoft/datasets)
-- IMDB - [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/)
-- NYC Street Trees Census - [https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh)
-- Figure skating scores - [https://github.com/BuzzFeedNews/figure-skating-scores](https://github.com/BuzzFeedNews/figure-skating-scores)
-- Jeopardy questions - [https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
+- University of Toronto - [https://github.com/cobalt-uoft/datasets](https://github.com/cobalt-uoft/datasets) or [https://github.com/zackbatist/archaeo-db-workshop/tree/master/UofTData](https://github.com/zackbatist/archaeo-db-workshop/tree/master/UofTData)
 
 ### Contact
 - twitter: [@mtl_zack](https://twitter.com/mtl_zack/)
