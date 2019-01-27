@@ -157,6 +157,8 @@ It's a bit like getting access to a breakfast buffet, rather than ordering off a
 
 It can seem intimidating at first, but you will find that it is actually a great way to interface with your computer.
 
+**Jump ahead from 'Don't panic' slide to SQL slide**
+
 #### Bash
 
 Issuing commands requires that you provide 
@@ -187,7 +189,7 @@ There are some common conventions when using the command line, which we can go o
 
 #### SQL
 
-Another command-oriented language i SQL, which stands for Structured Query Language.
+Another command-oriented language is SQL, which stands for Structured Query Language.
 
 SQL is used to interact with a relational database.
 
